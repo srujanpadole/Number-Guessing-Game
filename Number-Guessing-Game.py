@@ -7,7 +7,7 @@ start = random.randint(1,100)
 while True:
     choose = int(input("guess the number :"))
     if(choose == start):
-        print("tou won the game ")
+        print("You won the game ")
         break
     elif(choose > start):
         print("choose the smaller number")
